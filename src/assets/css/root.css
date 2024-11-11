@@ -105,6 +105,9 @@
     body.dark-mode .cs-section-breaker{
         background-color: var(--darkBreaker);
     }
+    .cs-topper {
+        color: var(--secondaryLight) !important;
+    }
 }
 /*-- -------------------------- -->
 <---      Dark Mode Toggle      -->
