@@ -105,6 +105,9 @@
     body.dark-mode .cs-section-breaker{
         background-color: var(--darkBreaker);
     }
+    #cs-navigation .cs-logo {
+        filter: grayscale(1) brightness(1000%);
+    }
 }
 /*-- -------------------------- -->
 <---      Dark Mode Toggle      -->

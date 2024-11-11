@@ -75,7 +75,7 @@
     #dark-mode-toggle .cs-moon {
         z-index: 2;
         transition: transform 0.3s, opacity 0.3s;
-        fill: #1a1a1a;
+        fill: #ffffff;
     }
     #dark-mode-toggle .cs-sun {
         opacity: 0;
