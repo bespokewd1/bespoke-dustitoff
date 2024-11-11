@@ -124,7 +124,6 @@
         display: block;
         position: absolute;
         top: 50%;
-        right: 5.625rem;
         width: 3rem;
         height: 3rem;
         background: transparent;
@@ -132,7 +131,6 @@
         overflow: hidden;
         padding: 0;
         z-index: 1000;
-        transform: translateY(-50%);
     }
     #dark-mode-toggle img,
     #dark-mode-toggle svg {
@@ -241,7 +239,7 @@ html {
     }
     #cs-navigation .cs-logo {
         width: 40%;
-        max-width: 9.125rem;
+        max-width: 5.125rem;
         height: 100%;
         margin: 0 auto 0 0;
         padding: 0;
@@ -434,10 +432,6 @@ html {
 @media only screen and (max-width: 63.9375rem) {
     body.dark-mode #cs-navigation {
         background-color: var(--dark);
-    }
-    body.dark-mode #cs-navigation .cs-logo {
-        /* makes it white */
-        filter: grayscale(1) brightness(1000%);
     }
     body.dark-mode #cs-navigation .cs-line {
         background-color: #fff;
@@ -658,7 +652,7 @@ html {
     #cs-navigation .cs-logo {
         width: 18.4%;
         max-width: 21.875rem;
-        height: 8rem;
+        height: 6rem;
         /* margin-right auto pushes everything away from it to the right */
         margin: 0 auto 0 0;
         padding: 0;
