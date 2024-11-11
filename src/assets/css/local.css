@@ -268,7 +268,7 @@
 /* Large Desktop - Parallax Effect - 1600px */
 @media only screen and (min-width: 100rem) {
     #hero-1621 .cs-background {
-        background: url("{{client.domain}}/assets/images/move-out-2.jpg");
+        background: url("/assets/images/move-out-1.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
