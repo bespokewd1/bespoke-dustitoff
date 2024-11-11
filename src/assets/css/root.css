@@ -4,11 +4,11 @@
 @media only screen and (min-width: 0rem) {
     :root {
         /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-        --primary: #2787BD;
-        --primaryLight: #59A0C9;
-        --primaryBreaker: #2787BD77;
-        --secondary: #001f3f;
-        --secondaryLight: #001f3f;
+        --primary: #3DC208;
+        --primaryLight: #3DC208;
+        --primaryBreaker: #3DC20877;
+        --secondary: #1E6303;
+        --secondaryLight: #1E6303;
         --headerColor: #1a1a1a;
         --bodyTextColor: #4e4b66;
         --bodyTextColorWhite: #fafbfc;
@@ -104,9 +104,6 @@
     }
     body.dark-mode .cs-section-breaker{
         background-color: var(--darkBreaker);
-    }
-    #cs-navigation .cs-logo {
-        filter: grayscale(1) brightness(1000%);
     }
 }
 /*-- -------------------------- -->
@@ -646,7 +643,7 @@ html {
     #cs-navigation .cs-container {
         width: 100%;
         /* same height as the cs-ul-wrapper */
-        height: 5.8125rem;
+        height: 6.5rem;
         max-width: 80rem;
         margin: auto;
         display: flex;
@@ -661,7 +658,7 @@ html {
     #cs-navigation .cs-logo {
         width: 18.4%;
         max-width: 21.875rem;
-        height: 2rem;
+        height: 8rem;
         /* margin-right auto pushes everything away from it to the right */
         margin: 0 auto 0 0;
         padding: 0;
@@ -675,6 +672,7 @@ html {
         height: 100%;
         /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
         object-fit: contain;
+        object-position: left;
     }
     #cs-navigation .cs-ul-wrapper {
         /* absolutely positioned to be dead center */
@@ -820,7 +818,6 @@ html {
         max-width: 13.0625rem;
         height: auto;
         display: block;
-        filter: grayscale(1) brightness(1000%);
     }
     #footer-1390 .cs-logo-img {
         width: 100%;
