@@ -710,7 +710,7 @@ html {
         color: var(--primary);
     }
     #cs-navigation .cs-li-link.cs-active {
-        color: var(--primary);
+        color: var(--secondaryLight);
     }
     #cs-navigation .cs-button-solid {
         font-size: 1rem;
