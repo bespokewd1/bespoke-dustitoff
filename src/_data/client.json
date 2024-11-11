@@ -1,6 +1,6 @@
 {
     "name": "Code Stitch Web Designs",
-    "logo": "{{client.domain}}/assets/image/dust-it-off-logo.png",
+    "logo": "https://yeg-carpet-cleaning.netlify.app/assets/image/dust-it-off-logo.png",
     "email": "yeg.carpetclean@gmail.com",
     "phoneForTel": "555-123-4567",
     "phoneFormatted": "(555) 123-4567",
