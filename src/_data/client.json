@@ -1,18 +1,18 @@
 {
-    "name": "YEG Carpet Cleaning",
-    "email": "yeg.carpetclean@gmail.com",
-    "phoneForTel": "+1 780-394-9380",
-    "phoneFormatted": "+1 780-394-9380",
+    "name": "Code Stitch Web Designs",
+    "email": "help@codestitch.app",
+    "phoneForTel": "555-123-4567",
+    "phoneFormatted": "(555) 123-4567",
     "address": {
-        "lineOne": "Edmonton",
-        "lineTwo": "Edmonton",
-        "city": "Edmonton",
-        "state": "Alberta",
-        "zip": "",
-        "mapLink": "https://maps.app.goo.gl/UYJh84oyjVAtwSvH7"
+        "lineOne": "First Address Line",
+        "lineTwo": "Second Address Line",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80206",
+        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
     },
     "social": {
-        "facebook": "https://www.facebook.com/profile.php?id=61565531703551&mibextid=ZbWKwL",
+        "facebook": "https://www.facebook.com/",
         "twitter": "https://twitter.com/",
         "instagram": "https://www.instagram.com/",
         "youtube": "https://www.youtube.com/"
