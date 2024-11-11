@@ -6,7 +6,7 @@
     #hero-1621 {
         /* 296px - 364px - top leaving extra space for the navigation */
         /* 60px - 100px bottom */
-        padding: clamp(18.5rem, 25.95vw, 22.75rem) 1rem
+        padding: clamp(18.5rem, 25.95vw, 18.5rem) 1rem
             clamp(3.75rem, 7.82vw, 6.25rem);
         position: relative;
         z-index: 1;
