@@ -6,7 +6,7 @@
     #hero-1621 {
         /* 296px - 364px - top leaving extra space for the navigation */
         /* 60px - 100px bottom */
-        padding: clamp(18.5rem, 25.95vw, 20rem) 1rem
+        padding: clamp(18.5rem, 25.95vw, 22.75rem) 1rem
             clamp(3.75rem, 7.82vw, 6.25rem);
         position: relative;
         z-index: 1;
@@ -268,7 +268,7 @@
 /* Large Desktop - Parallax Effect - 1600px */
 @media only screen and (min-width: 100rem) {
     #hero-1621 .cs-background {
-        background: url("/assets/images/carpet-cleaning-banner.jpg");
+        background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
