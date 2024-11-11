@@ -1,0 +1,81 @@
+---
+title: 'About | Code Stitch Advanced Kit'
+description: 'Learn more about this kit'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'about/'
+eleventyNavigation:
+    key: About Us
+    order: 200
+
+---
+
+{% block head %}
+    <link rel="stylesheet" href="../assets/css/local.css">
+
+
+{% endblock %}
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+    <section id="hero-1621">
+        <div class="cs-container">
+            <div class="cs-content">
+                <span class="cs-topper">For any small business need</span>
+                <h1 class="cs-title">
+                    The CodeStitch Advanced Starter Kit - Main Branch
+                </h1>
+                <a href="" class="cs-button-solid">Request A Qoute</a>
+                <!--Bottom Corners-->
+                <div class="cs-corners" aria-hidden="true"></div>
+            </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-styles.svg" alt="icon" width="48" height="48">
+                    <h2 class="cs-h3">LESS/SASS</h2>
+                    <p class="cs-item-text">
+                        Both preprocessors, alongside vanilla CSS, all available under one kit
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-optimize.svg" alt="icon" width="48" height="48">
+                    <h2 class="cs-h3">Optimization</h2>
+                    <p class="cs-item-text">
+                        Get better Pagespeed scores, quicker, with automatic critical CSS inlining, minifiction and asset optimization
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-cart.svg" alt="icon" width="48" height="48">
+                    <h2 class="cs-h3">eCommerce</h2>
+                    <p class="cs-item-text">
+                        Create the fastest of eCommerce stores with a seamless Shopify integration
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-cms.svg" alt="icon" width="48" height="48">
+                    <h2 class="cs-h3">CMS</h2>
+                    <p class="cs-item-text">
+                        Free time and empower your clients with a Decap content management system
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <source media="(max-width: 600px)"
+            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2-m.jpeg">
+            <source media="(min-width: 601px)"
+            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg">
+            <img loading="lazy" decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/meeting-2.jpeg" alt="meeting" width="1920"
+            height="1200" aria-hidden="true">
+        </picture>
+    </section>
+
+{% endblock %}
